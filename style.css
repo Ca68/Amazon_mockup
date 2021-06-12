@@ -1,0 +1,127 @@
+a {
+    color:  #0066C0;
+}
+
+.push-to-middle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+
+.img1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+.box {
+    margin-top: 70px; 
+    margin-bottom: 30px;
+    width:500px;
+    padding:20px;
+    background-color: white;
+    border-color: rgb(194, 189, 189);
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.btn  {
+    width: 100%;
+    background-color: #f0c14b;
+    margin-bottom: 20px;
+    
+}
+
+#continue {
+    background-color: #f5ce00;
+    color: black;
+    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom, #f7da5f, #f0c14b);
+    border-radius: 2px;
+}
+
+#continue:hover {
+    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom, #f5d78e, #eeb933);
+}
+
+.a-expander-prompt {
+    text-align: right;
+}
+
+.link_forgot {
+    float: right;
+    color: lightblue;
+}
+
+.exampleInputPassword1 {
+    float: left;
+}
+
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: gray
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid gray;
+    color: gray
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
+
+  #create {
+    width: 100%;
+    background-color: #e7e9ec;
+    margin-bottom: 20px;
+    color: black;
+    margin-top: 20px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+    box-shadow:  0 1px 0 rgb(255 255 255/60%) inset;
+    border-radius: 2px;
+  }
+
+  #create:hover {
+    background: #e7e9ec;
+    border-color: #adb1b8, #a2a6ac, #8d9096;
+    background: linear-gradient(to bottom, #e7eaf0, #d9dce1);
+  }
+
+nav {
+    padding-bottom: 20px;
+}
+  li {
+      display: inline;
+      padding-left:  20px;
+	  padding-right:  20px;
+  }
+
+  ul {
+     margin: 0 auto; 
+  }
+
+  
+
+  .footer p {
+      text-align: center;
+  }
+
